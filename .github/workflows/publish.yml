@@ -19,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history to compare tags
+          fetch-depth: 0  # Fetch full history (all tags and commits)
 
       - name: Configure Git safe directory
         run: |
@@ -29,43 +29,40 @@ jobs:
         run: |
           apt-get update && apt-get install -y jq
 
-      - name: Create GitHub Release with commit list
+      - name: Create GitHub Release using CHANGELOG block
         id: release
         run: |
           # Enable strict error handling for robustness
           set -euo pipefail
-          
-          # Extract current tag name
+
+          # Extract the current tag name (e.g., v0.1.0)
           TAG=${GITHUB_REF#refs/tags/}
-          
-          # Identify previous tag, if exists
-          PREV_TAG=$(git describe --tags --abbrev=0 $(git rev-list --tags --skip=1 --max-count=1) 2>/dev/null || echo "")
-          
-          if [ -n "$PREV_TAG" ]; then
-            # List commits between the previous tag and the current tag
-            COMMIT_LIST=$(git log ${PREV_TAG}..${TAG} --pretty=format:'* %s (%an)' || echo "No commits found.")
+
+          # If CHANGELOG.md exists, extract the block starting with the header "## ${TAG}"
+          if [ -f CHANGELOG.md ]; then
+            DESCRIPTION=$(awk 'BEGIN {flag=0} {if($0 ~ "^## '"$TAG"'") {flag=1} else if(flag==1 && $0 ~ "^## ") {exit} if(flag==1) print}' CHANGELOG.md)
+            # Fallback if the extracted block is empty
+            if [ -z "$DESCRIPTION" ]; then
+              DESCRIPTION="Automated release for ${TAG}"
+            fi
           else
-            # If no previous tag exists, list only the current commit
-            COMMIT_LIST=$(git log -1 --pretty=format:'* %s (%an)')
+            DESCRIPTION="Automated release for ${TAG}"
           fi
-          
-          # Build the release description using printf to correctly interpret newlines
-          DESCRIPTION=$(printf "Automated release for %s\n\nCommits since %s:\n%s" "$TAG" "${PREV_TAG:-start}" "$COMMIT_LIST")
-          
+
           # Create the JSON payload using jq
           PAYLOAD=$(jq -n \
             --arg tag "$TAG" \
             --arg name "$TAG" \
             --arg body "$DESCRIPTION" \
             '{ tag_name: $tag, name: $name, body: $body, draft: false, prerelease: false }')
-          
+
           # Create the release via GitHub API
           RESPONSE=$(curl -sSL \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
             https://api.github.com/repos/${{ github.repository }}/releases \
             -d "$PAYLOAD")
-          
+
           # Extract the release ID from the response and set it as the step output
           RELEASE_ID=$(jq -r '.id // empty' <<<"$RESPONSE")
           echo "::set-output name=release_created::$RELEASE_ID"
