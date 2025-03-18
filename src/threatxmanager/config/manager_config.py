@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 
 class Config:
     """
-    Singleton for centralized configuration management.
+    Singleton for centralized configuration management
 
     This class loads, accesses, updates, and obfuscates sensitive information
     contained in a configuration file.
