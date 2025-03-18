@@ -24,7 +24,7 @@ class CPEConnectorModule(BaseModule):
     """
     Module responsible for collecting CPE (Common Platform Enumeration) data from the NIST API
     and storing it in the database. This module uses configuration, logging, and database management
-    features inherited from BaseModule.
+    features inherited from BaseModule
 
     Process Flow:
         1. Initialization: Loads necessary configuration and creates an instance of Stix2Services.
