@@ -42,7 +42,7 @@ class Stix2Services:
         config: Config | None = None,
     ) -> None:
         """
-        Initialize STIX2 service with optional file or database persistence.
+        Initialize STIX2 service with optional file or database persistence
         """
         self.objects: dict[str, Any] = {}
         self.persist_file = persist_file
