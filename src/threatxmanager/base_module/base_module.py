@@ -9,7 +9,7 @@ from threatxmanager.logmanager.logmanager import LogManager
 class BaseModule(ABC):
     """
     Abstract base class for modules that use dependency injection for configuration,
-    logging, and database management.
+    logging, and database management
 
     This class provides common functionalities for initializing and managing the essential
     components of a module. Derived classes must implement the `run` method to execute
