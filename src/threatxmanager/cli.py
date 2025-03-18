@@ -24,7 +24,7 @@ def get_version() -> str:
     """
 
     Reads the project version from the pyproject.toml file under the [project] section.
-    Assumes the file is located at the project root (two levels up from this file).
+    Assumes the file is located at the project root (two levels up from this file)
     """
     try:
         project_root = Path(__file__).resolve().parent.parent
