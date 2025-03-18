@@ -1,0 +1,53 @@
+default_env = "dev"
+
+[database]
+  [database.bancode_dados.prod]
+    DATABASE_URL = "mariadb+mariadbconnector://root:minhaSenhaSecreta@192.168.0.116:3306/homol_db"
+    POOL_SIZE = 10
+    MAX_OVERFLOW = 20
+    POOL_TIMEOUT = 30
+    ECHO = false
+
+  [database.bancode_dados.dev]
+    DATABASE_URL = "mariadb+mariadbconnector://example-user:my_cool_secret@192.168.0.116:3306/example-database"
+    POOL_SIZE = 5
+    MAX_OVERFLOW = 10
+    POOL_TIMEOUT = 20
+    ECHO = false
+
+  [database.bancode_dados.homologation]
+    DATABASE_URL = "mariadb+mariadbconnector://root:minhaSenhaSecreta@192.168.0.116:3306/homol_db"
+    POOL_SIZE = 8
+    MAX_OVERFLOW = 15
+    POOL_TIMEOUT = 25
+    ECHO = false
+
+[logs]
+  [logs.prod]
+    LOG_FILE = "prod_app.log"
+    LOG_LEVEL = "INFO"
+    SENTRY_DSN = "https://xxx@sentry.io/123456"
+
+  [logs.dev]
+    LOG_FILE = "dev_app.log"
+    LOG_LEVEL = "INFO"
+    SENTRY_DSN = ""
+
+  [logs.homologation]
+    LOG_FILE = "homol_app.log"
+    LOG_LEVEL = "DEBUG"
+    SENTRY_DSN = ""
+
+[modules]
+  [modules.MyModule]
+    config1 = "value1"
+    config2 = "value2"
+
+  [modules.module2]
+    config1 = "value3"
+    config2 = "value4"
+
+  [modules.CPEConnectorModule]
+    base_url = "https://services.nvd.nist.gov/rest/json/cpes/2.0"
+    api_key = "ChangeMe"
+    interval = "6h"

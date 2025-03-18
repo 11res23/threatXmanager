@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "name": "Dados Originais",
+  "enriched": true,
+  "details": "Enriquecido pelo módulo SampleEnrichment."
+}
