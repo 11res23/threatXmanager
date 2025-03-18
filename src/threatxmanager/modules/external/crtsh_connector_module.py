@@ -49,7 +49,7 @@ def generate_id(object_type: str, *args) -> str:
 
 class CrtSHClient(BaseModule):
     """
-    Client module to retrieve certificate data from crt.sh and convert it to STIX objects.
+    Client module to retrieve certificate data from crt.sh and convert it to STIX objects
 
     The module performs the following steps:
         1. Domain Transformation: Validates and (optionally) wildcards the domain.
