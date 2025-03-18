@@ -7,7 +7,7 @@ from threatxmanager.dbmanager.models import BaseModel
 
 class StixObject(BaseModel):
     """
-    Represents a STIX (Structured Threat Information Expression) object stored in the database.
+    Represents a STIX (Structured Threat Information Expression) object stored in the database
 
     Attributes:
         __tablename__ (str): The name of the database table associated with this model.
