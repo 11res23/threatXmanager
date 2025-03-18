@@ -322,6 +322,6 @@ class ThreatXCLI:
                 self.console.print(f"[red]Unknown command: {command}[/red]")
 
 
-if __name__ == "__main__":
+def main():
     cli = ThreatXCLI()
     cli.run()

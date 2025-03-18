@@ -1,0 +1,132 @@
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Making API request to: http://dummyapi
+2025-03-18 17:40:32 - ERROR - AppLogger.CPEConnectorModule - Error retrieving CPE list: 404
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Making API request to: http://dummyapi
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - 10 CPEs retrieved.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - ERROR - AppLogger.CPEConnectorModule - Error converting interval '1x': Invalid interval unit.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Retrieving API request parameters...
+2025-03-18 17:40:32 - ERROR - AppLogger.CPEConnectorModule - Error retrieving API parameters: 500
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Retrieving API request parameters...
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - API request parameters retrieved successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Starting import for page 1 with URL: http://dummyapi?startIndex=0
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Making API request to: http://dummyapi?startIndex=0
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - 1 CPEs retrieved.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Converting JSON objects to CPE records...
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - 1 CPE records created.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Saved 1 raw CPE records in the database.
+2025-03-18 17:40:32 - INFO - AppLogger - Object x-cpe-record--x-cpe-record--d20e5a39-2daa-42be-bda1-912de89a455c added/updated.
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence saved to the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - 1 STIX objects imported on page 1.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Converting JSON objects to CPE records...
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - 1 CPE records created.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - [CPEConnectorModule] Base module instantiated.
+2025-03-18 17:40:32 - DEBUG - AppLogger.CPEConnectorModule - Database instance injected.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule initialized successfully.
+2025-03-18 17:40:32 - INFO - AppLogger - Table 'stix_objects' verified/created successfully (via ORM).
+2025-03-18 17:40:32 - INFO - AppLogger - Persistence loaded from the database successfully.
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - Executing CPEConnectorModule...
+2025-03-18 17:40:32 - INFO - AppLogger.CPEConnectorModule - CPEConnectorModule execution finished.

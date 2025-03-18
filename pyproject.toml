@@ -29,7 +29,7 @@ dependencies = [
 ]
 
 [project.scripts]  # https://docs.astral.sh/uv/concepts/projects/config/#command-line-interfaces
-threatxmanager = "threatxmanager.cli:app"
+threatxmanager = "threatxmanager.cli:main"
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
 homepage = "https://github.com/CorreaCyberLabsLTD/threatXmanager"
