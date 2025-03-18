@@ -15,7 +15,7 @@ Base = declarative_base()
 
 class BaseModel(Base):
     """
-    Abstract base model for all ORM models
+    Abstract base model for all ORM models.
 
     This abstract class defines common attributes for all models, such as a primary key
     (`id`), creation timestamp (`created_at`), and update timestamp (`updated_at`). It also
