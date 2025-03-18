@@ -9,7 +9,7 @@ from threatxmanager.config.manager_config import Config
 
 class LogManager:
     """
-    Singleton class for centralized logging management
+    Singleton class for centralized logging management.
 
     This class configures and manages the logging system, including Sentry integration
     for error tracking. It retrieves logging configurations from a Config instance
