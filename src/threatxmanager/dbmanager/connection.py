@@ -14,7 +14,7 @@ class DBManagerError(Exception):
 
 class DBManager:
     """
-    Singleton for centralized database management using SQLAlchemy
+    Singleton for centralized database management using SQLAlchemy.
 
     This class handles the creation and configuration of the database engine,
     session management, and provides basic CRUD operations.
