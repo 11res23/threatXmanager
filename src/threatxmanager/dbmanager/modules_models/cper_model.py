@@ -5,7 +5,7 @@ from threatxmanager.dbmanager.models import BaseModel
 
 class CPERecord(BaseModel):
     """
-    Represents a record in the 'cpe_records' table.
+    Represents a record in the 'cpe_records' table, which stores Common Platform Enumeration (CPE) data.
 
     Attributes:
         id (str): The primary key identifier for the record.
