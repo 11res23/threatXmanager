@@ -5,7 +5,7 @@ from threatxmanager.dbmanager.models import BaseModel
 
 class Certificate(BaseModel):
     """
-    Modelo para armazenar os dados dos certificados extraídos do JSON.
+    Modelo para armazenar os dados dos certificados extraídos do JSON
 
     Campos do JSON:
       - id (BigInteger): Identificador do certificado (usado como chave primária)
