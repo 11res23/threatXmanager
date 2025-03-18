@@ -2,6 +2,11 @@
 [![Publish](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/publish.yml/badge.svg)](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/publish.yml)
 [![Test](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/test.yml/badge.svg)](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/test.yml)
 [![Dependabot Updates](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/CorreaCyberLabsLTD/threatXmanager/actions/workflows/dependabot/dependabot-updates)
+![PyPI - Status](https://img.shields.io/pypi/status/threatxmanager)
+[![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fnumpy%2Fnumpy%2Fmain%2Fpyproject.toml)
+](https://raw.githubusercontent.com/CorreaCyberLabsLTD/threatXmanager/refs/heads/main/pyproject.toml)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/threatxmanager)
+
 # threatxmanager
 
 Manager database threat Intelligence
